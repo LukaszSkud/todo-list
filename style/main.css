@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#main-div{
+ 
+    width: auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px;
+}
+
+.menu__item {
+    list-style-type: none;
+    font-size: larger;
+    margin: 0 10px; 
+}
+
+.menu__item.to-left {
+    margin-right: 900px;
+}
+.menu__item a {
+    padding: 10px 20px; 
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: white; 
+}
+
+.menu__item.to-right {
+    margin-left: auto;
+}
+a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.menu__item:nth-last-child(2) a,
+.menu__item:last-child a {
+    background-color: brown;
+    padding: 10px 20px; 
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+}
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.plan {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0 70px;
+    text-align: center;
+    flex: 1;
+}
+.plan .price {
+    font-size: 24px;
+    color: #007bff;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+}
+
+.plan ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.plan button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.plan button:hover {
+    background-color: #0056b3;
+}
+
+
+.plan button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.plan button:hover {
+    background-color: #0056b3;
+}
+.check{
+color: green;
+font-size: 25px;
+}
+.x{
+    color: red;
+font-size: 25px;
+}
